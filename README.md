@@ -1,1 +1,1 @@
-# docker-ember-build-server
+docker file for : ember, bower, phantomjs, yarn
