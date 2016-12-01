@@ -14,8 +14,8 @@ CMD ["server"]
 RUN \
 	npm install -g ember-cli@2.10.0 &&\
 	npm install -g bower@1.7.2 &&\
-	npm install -g phantomjs@2.1.1
-  npm install -g yarn
+	npm install -g phantomjs@2.1.1 &&\
+	npm install -g yarn
 
 # install watchman
 # Note: See the README.md to find out how to increase the
