@@ -1,5 +1,5 @@
 # Pull base image.
-FROM library/node
+FROM node:6.9.2 
 MAINTAINER tinytelly <dulwich22@gmail.com>
 
 # Install Bower & Grunt
