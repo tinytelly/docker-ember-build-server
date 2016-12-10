@@ -13,6 +13,8 @@ RUN \
 	npm install -g ember-cli@2.7.0 &&\
 	npm install -g phantomjs-prebuilt@2.1.13 &&\
 	npm install -g yarn
+	
+RUN pip install boto3 # required for s3_upload.py
 
 # Define working directory.
 WORKDIR /data
